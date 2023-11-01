@@ -1,0 +1,68 @@
+QWidget {
+  background-color: #2b2563;
+}
+QWidget #login_window{
+  padding: 60px;
+}
+QLabel {
+  color: #464d55;
+  font-weight: 600;
+}
+QLabel#heading {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+QLabel#pass_lbl{
+  color: #fff;
+  font-size: 18px;
+}
+QLabel#email_lbl{
+  color: #fff;
+  font-size: 18px;
+}
+
+QLabel#subheading {
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+QLineEdit {
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e0e4e7;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+QLineEdit:focus {
+  border: 1px solid #d0e3ff;
+}
+
+QLineEdit::placeholder {
+ 
+  font-size: 16px;
+}
+
+QPushButton {
+  background-color: #0d6efd;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #0d6efd;
+  padding: 5px 15px;
+  margin-top: 10px;
+  outline: 0px;
+}
+
+QPushButton:hover,
+QPushButton:focus {
+  background-color: #0b5ed7;
+  border: 1px solid #9ac3fe;
+}
+
+QPushButton#btn_login{
+ font-size: 16px;
+ max-width: 150px;
+}
